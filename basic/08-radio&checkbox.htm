@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- name 으로 grouping 이 된다. -->
+    <!-- 버튼에 따른 값을 달리 전송해주기 위해 value 를 사용한다. -->
+    <input type="radio" id="subscribed" name="subscription" />
+    <label for="subscribed">구독중</label>
+    <input type="radio" id="un-subscribed" name="subscription" />
+    <label for="un-subscribed">미구독</label>
+
+    <hr />
+
+    <h1>
+      사용 가능 언어
+    </h1>
+    <!-- checkbox 도 관련있는 group을 묶기 위해서 name 속성을 이용해야 한다. -->
+    <form action="">
+      <input type="checkbox" name="skills" id="html" value="html" />
+      <label for="html">HTML</label>
+      <input type="checkbox" name="skills" id="css" value="css" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="skills" id="js" value="js" />
+      <label for="js">JavaScript</label>
+      <button type="submit">
+        submit
+      </button>
+    </form>
+  </body>
+</html>
