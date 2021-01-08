@@ -1,5 +1,5 @@
 # HTML
-Semantic Markupを学ぶ食べにHTMLを勉強しています。
+Semantic Markupを学ぶためにHTMLを勉強しています。
 
 基本的なタグーを基づいてページを作ってみました。
 
